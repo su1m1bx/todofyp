@@ -1,0 +1,47 @@
+# Internal planning and local agent/validation notes (keep on this machine).
+/PRD.md
+/SPEC.md
+/AGENTS.md
+/CLAUDE.md
+/docs/VALIDATION.md
+/opencode.json
+/opencode.jsonc
+/.opencode/
+/private/
+/backups/
+document.json
+
+# Local environment, credentials, and signing/notarization material.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+
+# Build outputs: publish DMGs as GitHub Release assets, not source files.
+.build/
+.swiftpm/
+/dist/
+DerivedData/
+*.app/
+*.dmg
+*.dSYM/
+*.xcarchive/
+
+# Machine-specific files and local diagnostics.
+.DS_Store
+xcuserdata/
+*.xcuserstate
+__pycache__/
+*.pyc
+*.log
+*.crash
